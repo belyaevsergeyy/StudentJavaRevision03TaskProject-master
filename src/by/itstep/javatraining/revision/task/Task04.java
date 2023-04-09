@@ -24,7 +24,7 @@ package by.itstep.javatraining.revision.task;
 public class Task04 {
     public static boolean task04(int x1, int y1, int x2, int y2) {
         if (y1 > 0 && y1 < 9 && y2 > 0 && y2 < 9 && x1 > 0 && x1 < 9 && x2 > 0 && x2 < 9) {
-            return x2 == x1 +1 || x2 == x1 - 1 || y2 == y1 + 1 || y2 == y1 -1 ;
+            return x2 == x1 + 1 || x2 == x1 - 1 || y2 == y1 + 1 || y2 == y1 - 1;
         }
         return false;
     }
